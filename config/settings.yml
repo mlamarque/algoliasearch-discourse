@@ -1,0 +1,7 @@
+algolia:
+  client_id: ''
+  api_key: ''
+  index: ''
+  indexes:
+    topic: 'title,fancy_title,excerpt'
+    post: 'raw'
