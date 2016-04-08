@@ -5,7 +5,7 @@
 
 
 after_initialize do
-  config = YAML::load_file('plugins/algolia-connect/config/settings.yml')["algolia"]
+  config = YAML::load_file('plugins/algoliasearch-discourse/config/settings.yml')["algolia"]
   AlgoliaSearch.configuration = { application_id: config["client_id"], api_key: config["api_key"] }
   
   class_to_index = config["indexes"]
