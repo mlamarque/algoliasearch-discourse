@@ -1,0 +1,2 @@
+# algoliasearch-discourse
+algoliasearch-discourse
