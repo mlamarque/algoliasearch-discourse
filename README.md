@@ -1,8 +1,8 @@
 # algoliasearch-discourse
-Connect Algolia to Discourse : http://algolia.com
+Connect Algolia to Discourse: http://algolia.com
 
 
-# Installation
+## Installation
 
 
 Run bundle exec rake plugin:install repo=https://github.com/mlamarque/algoliasearch-discourse.git in your discourse directory.
@@ -20,13 +20,13 @@ Example :
 Restart Discourse
 
 
-# Contributors
+## Contributors
 
 | [<img src="https://avatars.githubusercontent.com/u/461479?v=3" width="100px;"/><br /><sub>Mlamarque</sub>](https://github.com/mlamarque) | [<img src="https://avatars.githubusercontent.com/u/7848606?v=3" width="100px;"/><br /><sub>Arjen Brandenburgh</sub>](https://github.com/cybey) |
 | :---: | :---: |
 
 
-# Use case
+## Use case
 
 Plugin realized in a project to thesocialclient.com
 
