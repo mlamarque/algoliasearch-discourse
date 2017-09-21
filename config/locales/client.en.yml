@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    algoliasearch_discourse_application_id: "Algolia Application ID"
+    algoliasearch_discourse_api_key: "Algolia API Key"
+    algoliasearch_discourse_index_name: "Algolia Index Name"
