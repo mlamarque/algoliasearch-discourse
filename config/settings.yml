@@ -1,7 +1,14 @@
-algolia:
-  client_id: ''
-  api_key: ''
-  index: ''
-  indexes:
-    topic: 'title,fancy_title,excerpt'
-    post: 'raw'
+plugins:
+  algoliasearch_discourse_application_id:
+    default: ""
+    client: true
+  algoliasearch_discourse_api_key:
+    default: ""
+    client: true
+  algoliasearch_discourse_index_name:
+    default: ""
+    client: true
+
+indexes:
+  topic: "title,fancy_title,excerpt,updated_at"
+  post: "cooked"
